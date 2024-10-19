@@ -1,6 +1,4 @@
 from flask import Flask
-from frozen_flask import Freezer
-
 
 app = Flask(__name__)
 
@@ -13,4 +11,4 @@ def hello_callback():
     return "<p>Successfully Authenticated!</p>"
 
 # To run
-# flask --app hello run
+# flask --app simple_flask_server run
